@@ -1,0 +1,242 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #000;
+}
+
+img, span, h3, i, button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 56px;
+    padding: 24px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu-logo{
+    width: 146px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+header .search {
+    width: 404px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+header .search input {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 40px 0px 0px 40px;
+    padding-left: 10px;
+}
+
+
+header .search button {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 0px 40px 40px 0px;
+}
+
+header .profile {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+header .profile .ph-video-camera, .ph-bell {
+    font-size: 24px;
+}
+
+header .profile img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+main section {
+    width: 1120px;   /*952*/
+    height: 746px;
+    margin: 30px 0px 0px 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main section .videoimage {
+    width: 1120px;
+    height: 537px;
+    border-radius: 12px;
+}
+
+main section .registration img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+}
+
+main section .registration {
+    width: 902px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    line-height: 16.41px;
+}
+
+main section .registration .registration-channel {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+main section .registration .channel h3,span{
+    font-size: 0.875rem;
+}
+
+main section .registration .channel span {
+    opacity: .7;
+}
+
+main section .registration button {
+    width: 159px;
+    height: 40px;
+    background: #e43d3d;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+main section .registration ul {
+    display: flex;
+    gap: 30px;
+}
+
+main section .registration ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main section .registration ul li i {
+    font-size: 24px;
+}
+
+main section .registration ul li span {
+    font-size: 0.875rem;
+    font-weight: 600;
+}   
+
+main section .about-video span{
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+main section .about-video p {
+    width: 510px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #515151;
+    margin-top: 16px;
+}
+
+main aside {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+main aside .btn-top button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 12px;
+}
+
+main aside .shorts-page {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+main aside .shorts-page .shorts-logo{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+main aside .shorts-logo span {
+    font-size: 1.5rem;
+}
+
+main aside .shorts-page .shorts-videos {
+    display: flex;
+    gap: 10px;
+}
+
+main aside .shorts-page .shorts-videos .shorts_video img {
+    width: 150px;
+    border-radius: 12px;
+}
+
+main aside .shorts-page .shorts-videos .shorts_video .shorts-texts span{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+main aside .shorts-page .shorts-videos .shorts_video .shorts-texts span:first-child{
+    font-weight: 600;
+}
+
+main aside .featured-videos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+main aside .videos-side img {
+    width: 160px;
+    height: 90px;
+    border-radius: 12px;
+}
+
+main aside .videos-side a{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+main aside .videos-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
+}
